@@ -4,7 +4,7 @@ library(dplyr)
 library(stringr)
 
 #import file and create a dataframe df from csv file
-df <- read.csv("4.26.23 rothstein igg.csv", stringsAsFactors = F, encoding="UTF-8")
+df <- read.csv("4.26.23 igg.csv", stringsAsFactors = F, encoding="UTF-8")
 
 #retrieve antigen list
 ag_list <- df$Ag
